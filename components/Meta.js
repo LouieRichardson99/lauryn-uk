@@ -6,7 +6,7 @@ export default function Meta(props) {
             <link 
                 rel="icon"
                 sizes="32x32"
-                href="/public/logo.png"
+                href="/logo.png"
             />
             <title>
                 {`Lauryn Burrows | ${props.title}`}

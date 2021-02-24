@@ -6,12 +6,10 @@ import BlogDate from "../../components/BlogDate";
 import Meta from "../../components/Meta";
 
 export default function blogContent({ post }) {
-  console.log(post.data.title)
-
   return (
     <div>
       <Meta 
-        title={post.data.title.text}
+        title={post.data.title[0].text}
         desc={post.data.blog_excerpt[0].text}
       />
       <Header />
