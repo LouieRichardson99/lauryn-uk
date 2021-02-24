@@ -2,12 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import HomeHeader from "../components/HomeHeader";
 import Meta from '../components/Meta';
-import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className="font-serif text-gray-800">
-      <Head
+      <Meta 
         title="Homepage"
         desc="Lauryn Burrows is a graphic design student currently studying at
         Leeds Beckett University with a passion for branding, advertising, and publications."

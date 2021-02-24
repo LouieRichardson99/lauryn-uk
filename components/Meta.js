@@ -8,7 +8,7 @@ export default function Meta(props) {
                 sizes="32x32"
                 href="/public/logo.png"
             />
-            <meta 
+            <title 
                 name="title"
                 content={`Lauryn Burrows | ${props.title}`}
             />
