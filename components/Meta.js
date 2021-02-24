@@ -15,6 +15,7 @@ export default function Meta(props) {
                 name="description"
                 content={props.desc}
             />
+            <meta name="robots" content="noindex" />
         </Head>
     )
 }
