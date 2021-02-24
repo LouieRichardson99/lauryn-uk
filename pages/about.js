@@ -20,10 +20,10 @@ export default function about() {
         of my comfort zone."
       />
       <Header />
-      <main className="-mt-4 sm:mt-0 2xl:w-1/2 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed xl:w-1/2 w-5/6 text-center md:text-left">
+      <main className="-mt-4 sm:mt-0 2xl:w-1/2 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed xl:w-1/2 w-5/6">
         <div className="relative">
           <h2 className="text-xl text-center my-2 md:my-0">About Me</h2>
-          <p className="font-bold text-l mt-4 mb-6">
+          <p className="font-bold text-l mt-8 mb-6">
             Hi, I am <span className="text-red-700 text-xl pl-1">Lauryn!</span>
           </p>
           <p>
@@ -39,6 +39,9 @@ export default function about() {
             am looking for job roles that will challenge me and greater my
             skills in the design world.
           </p>
+          <br />
+          <p className="font-bold">Want to get in touch?</p>
+          <p>You can email me at <a href="mailto:laurynb1907@gmail.com"><span className="text-red-700">laurynb1907@gmail.com</span></a></p>
           <div className="mt-8 mb-7 md:mx-0 w-32 mx-auto flex">
             <a href="https://twitter.com/BdesignsLr" target="_blank">
               <i
