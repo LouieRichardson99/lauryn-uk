@@ -1,12 +1,20 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function BlogPanel(props) {
-    return (
-        <div>
-            <img className="object-cover w-72 h-40" src={props.blogHeroImage} alt={props.blogAltText}/>
-            <div>{props.blogTitle}</div>
-            <p>{props.blogExcerpt}</p>
-            <Link href={`/blog/${props.blogSlug}`}><button>Read</button></Link>
+  return (
+    <Link href={`/blog/${props.blogSlug}`}>
+      <a>
+        <div className="font-serif text-gray-800 mx-3 my-6">
+          <img
+            className="object-cover w-full h-40 rounded-xl"
+            src={props.blogHeroImage}
+            alt={props.blogAltText}
+          />
+          <p className="text-sm mt-3 px-1">Posted: {props.blogDate}</p>
+          <div className="text-xl my-3 px-1">{props.blogTitle}</div>
+          <p className="w-10/12 px-1">{props.blogExcerpt}</p>
         </div>
-    )
+      </a>
+    </Link>
+  );
 }
