@@ -1,6 +1,7 @@
 import Header from "../components/Header";
-import Head from "next/head";
+import Meta from '../components/Meta';
 import Image from "next/image";
+import Head from 'next/head';
 
 export default function about() {
   return (
@@ -9,11 +10,16 @@ export default function about() {
         <script
           src="https://kit.fontawesome.com/61950111e7.js"
           crossorigin="anonymous"
-        ></script>
+        />
       </Head>
-      <header>
-        <Header />
-      </header>
+      <Meta 
+        title="About"
+        desc="I am a graphic designer currently in my final year at Leeds Beckett
+        University. I specialise in Publication Design, Branding and
+        Advertising, however I am always up for a challenge that is outside
+        of my comfort zone."
+      />
+      <Header />
       <main className="-mt-4 sm:mt-0 2xl:w-1/2 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed xl:w-1/2 w-5/6 text-center md:text-left">
         <div className="relative">
           <h2 className="text-xl text-center my-2 md:my-0">About Me</h2>
@@ -59,7 +65,7 @@ export default function about() {
           <div className="w-full md:w-2/3 lg:w-2/3 xl:w-1/2 mx-auto 2xl:w-1/2">
             <Image
               src="/portrait.jpg"
-              alt="Personal Portrait"
+              alt="Lauryn Burrows Digital Illustration"
               width={2480}
               height={3508}
             />

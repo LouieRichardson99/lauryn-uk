@@ -3,9 +3,7 @@ import Header from "../components/Header";
 export default function contact() {
   return (
     <div>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <form name="contact" method="POST" data-netlify="true">
         <p>
           <label htmlFor="name">Name</label>

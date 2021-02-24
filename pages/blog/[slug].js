@@ -1,12 +1,19 @@
 import Header from "../../components/Header";
 import { client } from "../../utils/prismicClient";
 import { RichText } from "prismic-reactjs";
-import markdownStyles from '../../styles/markdown-styles.module.css';
-import BlogDate from '../../components/BlogDate';
+import markdownStyles from "../../styles/markdown-styles.module.css";
+import BlogDate from "../../components/BlogDate";
+import Meta from "../../components/Meta";
 
 export default function blogContent({ post }) {
+  console.log(post.data.title)
+
   return (
     <div>
+      <Meta 
+        title={post.data.title.text}
+        desc={post.data.blog_excerpt[0].text}
+      />
       <Header />
       <div className="w-10/12 sm:w-3/4 md:max-w-3xl mx-auto">
         <div className={markdownStyles['markdown']}>

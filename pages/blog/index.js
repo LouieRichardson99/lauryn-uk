@@ -3,11 +3,16 @@ import BlogPanel from "../../components/BlogPanel";
 import { client } from "../../utils/prismicClient";
 import Prismic from "prismic-javascript";
 import { RichText } from "prismic-reactjs";
-import BlogDate from '../../components/BlogDate';
+import BlogDate from "../../components/BlogDate";
+import Meta from "../../components/Meta";
 
 export default function blog({ blogs }) {
   return (
     <div>
+      <Meta 
+        title="Blog"
+        desc="Welcome to my blog page. I blog about anything related to branding and graphic design!"
+      />
       <Header />
       <h1 className="font-serif text-xl text-gray-800 text-center mb-5">Blog</h1>
       <div className="grid w-11/12 xl:w-3/4 2xl:w-3/4 max-w-96 grid-cols-1 sm:grid-cols-2 mx-auto -mt-6 sm:mt-0 md:grid-cols-3">
