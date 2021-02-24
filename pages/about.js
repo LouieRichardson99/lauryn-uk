@@ -9,7 +9,7 @@ export default function about() {
       <Head>
         <script
           src="https://kit.fontawesome.com/61950111e7.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
       <Meta 
