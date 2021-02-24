@@ -9,8 +9,7 @@ export default function Meta(props) {
                 href="/public/logo.png"
             />
             <title>
-                name="title"
-                content={`Lauryn Burrows | ${props.title}`}
+                {`Lauryn Burrows | ${props.title}`}
             </title>
             <meta 
                 name="description"
