@@ -42,7 +42,7 @@ export default function about() {
           <br />
           <p className="font-bold">Want to get in touch?</p>
           <p>You can email me at <a href="mailto:laurynb1907@gmail.com"><span className="text-red-700">laurynb1907@gmail.com</span></a></p>
-          <div className="mt-8 mb-7 md:mx-0 w-32 mx-auto flex">
+          <div className="mt-8 mb-10 md:mx-0 w-32 mx-auto flex">
             <a href="https://twitter.com/BdesignsLr" target="_blank">
               <i
                 aria-hidden="true"

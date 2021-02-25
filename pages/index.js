@@ -16,10 +16,10 @@ export default function Home() {
         <section>
           <div className="w-10/12 sm:w-3/4 md:w-3/4 lg:w-4/6 xl:w-5/12 m-auto hover:animate-ping ">
             <Image
-              src="/logo.png"
+              src="/logo.jpg"
               alt="Lauryn Burrows Logo"
-              width={2074}
-              height={1596}
+              width={1938}
+              height={1504}
             />
           </div>
         </section>
