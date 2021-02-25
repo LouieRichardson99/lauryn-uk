@@ -32,7 +32,7 @@ export default function blog({ blogs }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const blogs = await client.query(
     Prismic.Predicates.at("document.type", "blog_post")
   );

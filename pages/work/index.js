@@ -43,7 +43,7 @@ export default function work({ work }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const work = await client.query(
     Prismic.Predicates.at("document.type", "work_images")
   );
