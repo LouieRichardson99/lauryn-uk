@@ -14,7 +14,7 @@ export default function Home() {
       <HomeHeader />
       <main>
         <section>
-          <div className="w-10/12 sm:w-3/4 md:w-3/4 lg:w-4/6 xl:w-5/12 m-auto hover:animate-ping ">
+          <div className="max-w-prose w-10/12 sm:w-3/4 md:w-3/4 lg:w-4/6 xl:w-5/12 m-auto hover:animate-ping ">
             <Image
               src="/logo.jpg"
               alt="Lauryn Burrows Logo"
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className="w-11/12 sm:w-11/12 md:w-3/4 lg:w-1/2 xl:w-1/2 2xl:w-4/12 m-auto mt-10">
+          <div className="w-11/12 max-w-prose sm:w-11/12 md:w-3/4 lg:w-1/2 xl:w-1/2 2xl:w-4/12 m-auto mt-10">
             <p className="text-l md:text-xl text-center">
               I am a graphic design student currently studying at
               Leeds Beckett University with a passion for{" "}

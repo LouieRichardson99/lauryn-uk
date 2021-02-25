@@ -20,8 +20,8 @@ export default function about() {
         of my comfort zone."
       />
       <Header />
-      <main className="-mt-4 sm:mt-0 2xl:w-1/2 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed xl:w-1/2 w-5/6">
-        <div className="relative">
+      <main className="-mt-4 sm:mt-0 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed w-5/6">
+        <div className="xl:max-w-screen-md mx-auto">
           <h2 className="text-xl text-center my-2 md:my-0">About Me</h2>
           <p className="font-bold text-l mt-8 mb-6">
             Hi, I am <span className="text-red-700 text-xl pl-1">Lauryn!</span>
@@ -65,14 +65,14 @@ export default function about() {
               ></i>
             </a>
           </div>
-          <div className="w-full md:w-2/3 lg:w-2/3 xl:w-1/2 mx-auto 2xl:w-1/2">
-            <Image
-              src="/portrait.jpg"
-              alt="Lauryn Burrows Digital Illustration"
-              width={2480}
-              height={3508}
-            />
-          </div>
+        </div>
+        <div className="md:w-2/3 lg:w-2/3 xl:w-1/2 mx-auto 2xl:w-1/2 max-w-lg">
+          <Image
+            src="/portrait.jpg"
+            alt="Lauryn Burrows Digital Illustration"
+            width={2480}
+            height={3508}
+          />
         </div>
       </main>
     </div>

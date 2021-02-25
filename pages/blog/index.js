@@ -15,7 +15,7 @@ export default function blog({ blogs }) {
       />
       <Header />
       <h1 className="font-serif text-xl text-gray-800 text-center mb-5">Blog</h1>
-      <div className="grid w-11/12 xl:w-3/4 2xl:w-3/4 max-w-96 grid-cols-1 sm:grid-cols-2 mx-auto -mt-6 sm:mt-0 md:grid-cols-3">
+      <div className="grid w-11/12 xl:w-3/4 2xl:w-3/4 max-w-screen-xl grid-cols-1 sm:grid-cols-2 mx-auto -mt-6 sm:mt-0 md:grid-cols-3">
         {blogs.results.map(blog => (
           <BlogPanel
             key={blog.uid}
@@ -32,7 +32,7 @@ export default function blog({ blogs }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const blogs = await client.query(
     Prismic.Predicates.at("document.type", "blog_post")
   );
