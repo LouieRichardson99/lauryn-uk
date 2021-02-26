@@ -7,6 +7,8 @@ import BlogDate from "../../components/BlogDate";
 import Meta from "../../components/Meta";
 
 export default function blog({ blogs }) {
+
+  console.log(blogs.results[0].data)
   return (
     <div>
       <Meta 
@@ -34,7 +36,9 @@ export default function blog({ blogs }) {
 
 export async function getStaticProps() {
   const blogs = await client.query(
-    Prismic.Predicates.at("document.type", "blog_post")
+    Prismic.Predicates.at("document.type", "blog_post"), {
+      orderings: "[document.first_publication_date desc]"
+    }
   );
 
   return {
