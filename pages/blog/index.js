@@ -7,8 +7,6 @@ import BlogDate from "../../components/BlogDate";
 import Meta from "../../components/Meta";
 
 export default function blog({ blogs }) {
-
-  console.log(blogs.results[0].data)
   return (
     <div>
       <Meta 
