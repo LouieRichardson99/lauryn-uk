@@ -14,7 +14,7 @@ export default function Home() {
       <HomeHeader />
       <main>
         <section>
-          <div className="max-w-prose w-10/12 sm:w-3/4 md:w-3/4 lg:w-4/6 xl:w-5/12 m-auto hover:animate-ping ">
+          <div className="max-w-prose w-10/12 sm:w-3/4 md:w-3/4 lg:w-4/6 xl:w-5/12 m-auto hover:animate-ping">
             <Image
               src="/logo.jpg"
               alt="Lauryn Burrows Logo"

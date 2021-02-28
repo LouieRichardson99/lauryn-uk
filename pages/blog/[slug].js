@@ -15,16 +15,13 @@ export default function blogContent({ post }) {
       <Header />
       <div className="w-10/12 sm:w-3/4 md:max-w-3xl mx-auto">
         <div className={markdownStyles['markdown']}>
-          <RichText render={post.data.title} />
+          {RichText.render(post.data.title)}
         </div>
         <div className='font-serif text-gray-700 mb-12 text-center -mt-8'>
           <BlogDate dateString={post.first_publication_date}/>
         </div>
         <div className={markdownStyles['markdown']}>
-          <RichText render={post.data.date} />
-        </div>
-        <div className={markdownStyles['markdown']}>
-          <RichText render={post.data.blog_content} />
+          {RichText.render(post.data.blog_content)}
         </div>
       </div>
     </div>
