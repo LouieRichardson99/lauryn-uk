@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="font-serif text-gray-800">
       <Meta 
-        title="Homepage"
+        title="Graphic Designer Homepage"
         desc="Lauryn Burrows is a graphic design student currently studying at
         Leeds Beckett University with a passion for branding, advertising, and publications."
       />
