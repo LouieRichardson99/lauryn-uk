@@ -69,7 +69,7 @@ export default function about() {
         <div className="md:w-2/3 lg:w-2/3 xl:w-1/2 mx-auto 2xl:w-1/2 max-w-lg">
           <Image
             src="/portrait.jpg"
-            alt="Lauryn Burrows Digital Illustration"
+            alt="Graphic Designer Lauryn Burrows, Digital Illustration"
             width={2480}
             height={3508}
           />
