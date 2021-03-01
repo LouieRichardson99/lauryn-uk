@@ -15,10 +15,6 @@ export default function Meta(props) {
                 name="description"
                 content={props.desc}
             />
-            <script
-                src="https://kit.fontawesome.com/61950111e7.js"
-                crossOrigin="anonymous"
-            />
         </Head>
     )
 }

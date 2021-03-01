@@ -1,17 +1,10 @@
 import Header from "../components/Header";
 import Meta from '../components/Meta';
 import Image from "next/image";
-import Head from 'next/head';
 
 export default function about() {
   return (
     <div>
-      <Head>
-        <script
-          src="https://kit.fontawesome.com/61950111e7.js"
-          crossOrigin="anonymous"
-        />
-      </Head>
       <Meta 
         title="About"
         desc="I am a graphic designer currently in my final year at Leeds Beckett

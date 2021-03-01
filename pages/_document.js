@@ -22,6 +22,10 @@ class MyDocument extends Document {
           `,
             }}
           />
+          <script
+            src="https://kit.fontawesome.com/61950111e7.js"
+            crossOrigin="anonymous"
+          />
         </Head>
         <body>
           <Main />
