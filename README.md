@@ -8,7 +8,7 @@ Hosted with Vercel!
 
 ## Running Locally?
 
-Open terminal into the lauryn-uk directory and type 'npm run dev'
+Open terminal into the lauryn-uk directory and type 'npm install && npm run dev'
 
 This will run a localhost:3000 with the website running locally on your machine.
 
