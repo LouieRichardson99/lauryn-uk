@@ -4,6 +4,7 @@ import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 import * as gtag from '../lib/gtag';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -19,6 +20,9 @@ function MyApp({ Component, pageProps }) {
 
   return (   
     <Layout>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <Component {...pageProps} />
     </Layout>
   );
