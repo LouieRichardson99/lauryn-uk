@@ -26,7 +26,8 @@ export default function about() {
             of my comfort zone. I am skilled in using Adobe Suite especially
             Photoshop and Indesign. I love to illustrate in my spare time
             especially animals.
-            <br />
+          </p>
+          <p className="mt-3">
             My goal is to become a designer who creates designs that will
             inspire and motivate people whilst leaving a lasting impression. I
             am looking for job roles that will challenge me and greater my
