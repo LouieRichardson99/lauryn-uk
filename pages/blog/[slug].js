@@ -14,7 +14,7 @@ export default function blogContent({ post }) {
         desc={post.data.blog_excerpt[0].text}
       />
       <Header />
-      <main className="w-10/12 sm:w-3/4 md:max-w-3xl mx-auto">
+      <main className="w-11/12 sm:w-3/4 md:max-w-3xl mx-auto">
         <div className={markdownStyles["markdown"]}>
           {RichText.render(post.data.title)}
         </div>

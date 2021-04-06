@@ -13,7 +13,7 @@ export default function about() {
         of my comfort zone."
       />
       <Header />
-      <main className="-mt-4 sm:mt-0 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed w-5/6">
+      <main className="-mt-4 sm:mt-0 font-serif text-gray-800 md:w-4/6 m-auto leading-relaxed w-11/12">
         <div className="xl:max-w-screen-md mx-auto">
           <h2 className="text-xl text-center my-2 md:my-0">About Me</h2>
           <p className="font-bold text-l mt-8 mb-6">
