@@ -1,11 +1,11 @@
 import Header from "../components/Header";
-import Meta from '../components/Meta';
+import Meta from "../components/Meta";
 import Image from "next/image";
 
 export default function about() {
   return (
-    <div>
-      <Meta 
+    <>
+      <Meta
         title="About"
         desc="I am a graphic designer currently in my final year at Leeds Beckett
         University. I specialise in Publication Design, Branding and
@@ -35,7 +35,12 @@ export default function about() {
           </p>
           <br />
           <p className="font-bold">Want to get in touch?</p>
-          <p>You can email me at <a href="mailto:laurynb1907@gmail.com"><span className="text-red-700">laurynb1907@gmail.com</span></a></p>
+          <p>
+            You can email me at{" "}
+            <a href="mailto:laurynb1907@gmail.com">
+              <span className="text-red-700">laurynb1907@gmail.com</span>
+            </a>
+          </p>
           <div className="mt-8 mb-10 md:mx-0 w-32 mx-auto flex">
             <a href="https://twitter.com/BdesignsLr" target="_blank">
               <i
@@ -64,11 +69,11 @@ export default function about() {
           <Image
             src="/portrait.jpg"
             alt="Graphic Designer Lauryn Burrows, Digital Illustration"
-            width={2480}
-            height={3508}
+            width={725}
+            height={1000}
           />
         </div>
       </main>
-    </div>
+    </>
   );
 }

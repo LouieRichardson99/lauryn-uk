@@ -9,8 +9,8 @@ export default function Logo() {
           <Image
             src="/logo.jpg"
             alt="Lauryn Burrows Logo"
-            width={1938}
-            height={1504}
+            width={750}
+            height={500}
           />
         </a>
       </Link>

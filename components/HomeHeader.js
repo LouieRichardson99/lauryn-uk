@@ -14,7 +14,11 @@ export default function Header() {
         <div className="mb-12 transition duration-500 ease-in-out">
           <div className="mb-4 font-serif sm:flex mt-6 text-center border-b-2 border-red-700 shadow-md">
             <NavLinks />
-            <button aria-label="mobile-navigation-button-close" onClick={handleMenu} className="w-6 text-red-700 mb-5">
+            <button
+              aria-label="mobile-navigation-button-close"
+              onClick={handleMenu}
+              className="w-6 text-red-700 mb-5"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -42,7 +46,12 @@ export default function Header() {
           <NavLinks />
         </div>
         <div className="sm:hidden block right-10 float-right absolute">
-          <button aria-label="mobile-navigation-button-open" type="button" className="block h-full" onClick={handleMenu}>
+          <button
+            aria-label="mobile-navigation-button-open"
+            type="button"
+            className="block h-full"
+            onClick={handleMenu}
+          >
             <svg
               className="h-6 w-8 fill-current"
               xmlns="http://www.w3.org/2000/svg"
