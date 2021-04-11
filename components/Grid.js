@@ -12,7 +12,7 @@ export default function Grid({ images, handleModalOpen }) {
               src={image.work_image.url}
               width="400"
               height="300"
-              className="transition duration-200 ease-in-out rounded-lg hover:bg-gray-800 hover:opacity-60"
+              className="transition duration-200 ease-in-out rounded-lg hover:bg-gray-800 hover:opacity-60 cursor-pointer"
               onClick={() => handleModalOpen(image)}
             />
           </div>

@@ -12,7 +12,7 @@ export default function BlogPanel(props) {
           />
           <p className="text-sm mt-3 px-1">Posted: {props.blogDate}</p>
           <div className="text-xl my-3 px-1">{props.blogTitle}</div>
-          <p className="w-10/12 px-1">{props.blogExcerpt}</p>
+          <p className="px-1">{props.blogExcerpt}</p>
         </div>
       </a>
     </Link>

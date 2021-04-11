@@ -15,7 +15,7 @@ export default function Modal(props) {
         className="block m-auto mt-3 mb-2 p-2 bg-red-700 text-white rounded-lg hover:opacity-80 transition ease-in-out duration-200"
         onClick={props.handleModalClose}
       >
-        Close Me
+        Close
       </button>
     </div>
   );
