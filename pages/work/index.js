@@ -27,14 +27,10 @@ export default function work({ work }) {
                     <a>
                       <Image
                         src={project.data.images[0].work_image.url}
-                        width={
-                          project.data.images[0].work_image.dimensions.width
-                        }
-                        height={
-                          project.data.images[0].work_image.dimensions.height
-                        }
+                        width={2048}
+                        height={1500}
                         alt={project.data.images[0].work_image.alt}
-                        className="rounded-lg hover:bg-gray-800 hover:opacity-60 transition ease-in-out duration-200"
+                        className="rounded-lg object-cover hover:bg-gray-800 hover:opacity-60 transition ease-in-out duration-200"
                       />
                       <div className="text-right md:text-left mt-1 font-bold md:ml-1 mb-3 text-red-700">
                         {RichText.render(project.data.work_name)}
