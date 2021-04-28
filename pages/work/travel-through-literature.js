@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactPlayer from "react-player";
 import Header from "../../components/Header";
 import WideModal from "../../components/WideModal";
 import WideGrid from "../../components/WideGrid";
@@ -32,6 +33,20 @@ export default function workContent({ workImages, work }) {
             {work.data.work_name[0].text}
           </h1>
         )}
+        <ReactPlayer
+          className="mb-5 w-full px-1 max-w-4xl"
+          url="/videos/TTL.mp4"
+          controls={true}
+          playing={true}
+          loop={true}
+          volume={0}
+          style={{
+            marginRight: "auto",
+            marginLeft: "auto",
+          }}
+          width="full"
+          height="full"
+        />
         {workImages && (
           <WideGrid images={workImages} handleModalOpen={handleModalOpen} />
         )}
