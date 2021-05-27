@@ -12,15 +12,15 @@ export default function work({ work }) {
       <Meta title="Work" desc="Lauryn Burrows work portfolio" />
       <Header />
       <main className="font-serif text-gray-800">
-        <h2 className="mt-0 mb-8 lg:mb-12 md:mt-2 text-xl text-center">
+        <h2 className="mt-0 mb-10 lg:mb-12 md:mt-2 text-xl text-center">
           My Work
         </h2>
-        <div className="block md:flex m-4 justify-center">
+        <div className="grid w-11/12 xl:w-3/4 2xl:w-3/4 max-w-screen-xl grid-cols-1 sm:grid-cols-2 mx-auto sm:mt-0 xl:grid-cols-3">
           {work &&
             work.results.map((project, index) => {
               return (
                 <div
-                  className="w-11/12 mx-auto md:mx-3 md:w-1/2 max-w-lg relative"
+                  className="w-11/12 mx-auto md:mx-3 max-w-lg relative mb-5"
                   key={index}
                 >
                   <Link href={`/work/${project.uid}`}>
