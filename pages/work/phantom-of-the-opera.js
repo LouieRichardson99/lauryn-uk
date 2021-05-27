@@ -29,6 +29,5 @@ export async function getStaticProps() {
       workImages,
       work,
     },
-    revalidate: 600,
   };
 }

@@ -21,7 +21,10 @@ export default function workContent({ workImages, work }) {
 }
 
 export async function getStaticProps() {
-  const work = await client.getByUID("work_images", "jimmys-end");
+  const work = await client.getByUID(
+    "work_images",
+    "josies-cake-co-brand-refresh"
+  );
   const workImages = work.data.images;
 
   return {
