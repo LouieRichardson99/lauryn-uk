@@ -14,6 +14,13 @@ export default function workContent({ workImages, work }) {
             {work.data.work_name[0].text}
           </h1>
         )}
+        <p className="max-w-3xl mx-auto mb-2 text-center">
+          Josie's Cake Co is a bakery based in Northampton that started up just
+          over a year ago, and the client was now looking for a brand re-fresh.
+          The Client wanted us to use similar colour’s to what they originally
+          had, however myself and grace decided to do a copy for the colours
+          that we would of used if we had full rein.
+        </p>
         {workImages && <Grid images={workImages} />}
       </main>
     </>

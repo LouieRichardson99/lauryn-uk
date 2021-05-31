@@ -10,8 +10,8 @@ export default function Grid({ images, handleModalOpen }) {
             <Image
               alt={image.work_image.alt}
               src={image.work_image.url}
-              width="1000"
-              height="354"
+              width={image.work_image.dimensions.width}
+              height={image.work_image.dimensions.height}
               className="transition duration-200 ease-in-out rounded-lg hover:bg-gray-800 hover:opacity-60 cursor-pointer"
               onClick={() => handleModalOpen(image)}
             />

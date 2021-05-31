@@ -14,6 +14,11 @@ export default function workContent({ workImages, work }) {
             {work.data.work_name[0].text}
           </h1>
         )}
+        <p className="max-w-3xl mx-auto mb-10 text-center">
+          Jimmy’s End is a personal editorial design about my rugby union team.
+          The aim of this project was based around the fans to celebrate and
+          remember where the club has come from to where they are now.
+        </p>
         {workImages && <Grid images={workImages} />}
       </main>
     </>
