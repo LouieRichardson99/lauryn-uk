@@ -8,8 +8,8 @@ export default function about() {
       <Meta
         title="About"
         desc="I am a graphic designer currently in my final year at Leeds Beckett
-        University. I specialise in Publication Design, Branding and
-        Advertising, however I am always up for a challenge that is outside
+        University. I specialise in Editorial Design, Branding and
+        Advertising, however, I am always up for a challenge that is outside
         of my comfort zone."
       />
       <Header />
@@ -21,8 +21,8 @@ export default function about() {
           </p>
           <p>
             I am a graphic designer currently in my final year at Leeds Beckett
-            University. I specialise in Publication Design, Branding and
-            Advertising, however I am always up for a challenge that is outside
+            University. I specialise in Editorial Design, Branding and
+            Advertising, however, I am always up for a challenge that is outside
             of my comfort zone. I am skilled in using Adobe Suite especially
             Photoshop and Indesign. I love to illustrate in my spare time
             especially animals.
