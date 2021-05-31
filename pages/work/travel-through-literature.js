@@ -33,7 +33,7 @@ export default function workContent({ workImages, work }) {
             {work.data.work_name[0].text}
           </h1>
         )}
-        <p className="max-w-3xl mx-auto mb-10 text-center">
+        <p className="max-w-3xl mx-auto mb-10 text-center px-5">
           Travel Through Literature is an editorial piece that celebrates both
           literature and photography of hidden gems and staying away from the
           cliches of a number of cities spread across the globe.

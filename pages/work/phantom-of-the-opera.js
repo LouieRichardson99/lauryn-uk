@@ -14,7 +14,7 @@ export default function workContent({ workImages, work }) {
             {work.data.work_name[0].text}
           </h1>
         )}
-        <p className="max-w-3xl mx-auto mb-10 text-center">
+        <p className="max-w-3xl mx-auto mb-10 text-center px-5">
           Silence is golden is a live project that I completed for the ISTD
           competition, based around typography. I did the brief silence is
           golden and I was inspired by the Silent film, The Phantom Of The Opera
